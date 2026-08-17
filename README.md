@@ -1,8 +1,6 @@
 # Custom 16-Bit Harvard Processor in Verilog HDL
 
-A custom 16-bit, Harvard-architecture processor implemented in Verilog HDL, built as a
-**Computer Organization** course project during the 1st semester of a Bachelor of Computer
-Engineering degree.
+A custom 16-bit, Harvard-architecture processor implemented in Verilog HDL.
 
 The processor implements a simplified MIPS-inspired instruction set with three instruction
 formats (R, I, J), an 8-register register file, a combined ALU/register-file "Datapath" unit,
