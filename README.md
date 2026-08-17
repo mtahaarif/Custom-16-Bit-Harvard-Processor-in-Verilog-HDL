@@ -8,7 +8,6 @@ a ROM-based instruction memory, an 8-bit program counter, and a Status Register 
 condition-flag based (conditional) execution.
 
 ---
-![Abstract View](abstract-view.png)
 ## Table of Contents
 
 1. [Project Background](#project-background)
@@ -40,14 +39,8 @@ physically and logically separate — split into two cooperating blocks:
   special-purpose registers (`Hi`, `Lo`, Status Register), and the condition-check logic that
   feeds status flags back to the Control Unit.
 
-```
-        ┌────────────────┐   Control Signals   ┌─────────────────────┐
-        │                │ ───────────────────▶│                      │
-        │  Control Unit  │                      │    Main Datapath      │
-        │ (PC, ROM, IR,  │◀─────────────────────│ (Register File, ALU,  │
-        │  Decode logic) │    Status Signals    │  SPRs: SR, Hi, Lo)    │
-        └────────────────┘                      └─────────────────────┘
-```
+![Abstract View](abstract-view.png)
+
 
 The processor must, at minimum, execute the **basic instruction set** (Table 2 in the spec) and,
 for extra credit, support **condition-flag-gated conditional instructions** (Table 3 in the
@@ -69,6 +62,8 @@ spec) such as "add if a flag is set" and "branch if a flag is set."
 | Architecture style | Harvard (separate instruction and data memories) |
 
 ---
+![Detailed View](detailed-view.png)
+
 
 ## Instruction Set Architecture (ISA)
 
