@@ -1,4 +1,4 @@
-# Custom 16-Bit Processor
+# Custom 16-Bit Harvard Processor in Verilog HDL
 
 A custom 16-bit, Harvard-architecture processor implemented in Verilog HDL, built as a
 **Computer Organization** course project during the 1st semester of a Bachelor of Computer
