@@ -7,7 +7,7 @@ formats (R, I, J), an 8-register register file, a combined ALU/register-file "Da
 a ROM-based instruction memory, an 8-bit program counter, and a Status Register for
 condition-flag based (conditional) execution.
 
----
+--
 ## Table of Contents
 
 1. [Project Background](#project-background)
