@@ -8,7 +8,7 @@ a ROM-based instruction memory, an 8-bit program counter, and a Status Register 
 condition-flag based (conditional) execution.
 
 ---
-
+(/abstact-view.png)
 ## Table of Contents
 
 1. [Project Background](#project-background)
